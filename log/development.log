@@ -441,3 +441,24 @@ Processing by StaticPagesController#home as HTML
 Completed 200 OK in 44ms (Views: 42.2ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/" for 127.0.0.1 at 2018-12-10 19:29:43 +0100
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 229ms (Views: 218.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2018-12-10 19:29:51 +0100
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 25ms (Views: 23.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/about" for 127.0.0.1 at 2018-12-10 19:29:59 +0100
+Processing by StaticPagesController#about as HTML
+  Rendering static_pages/about.html.erb within layouts/application
+  Rendered static_pages/about.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 26ms (Views: 24.5ms | ActiveRecord: 0.0ms)
+
+
